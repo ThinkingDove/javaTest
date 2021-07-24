@@ -49,4 +49,10 @@ public class MethodRefTest {
         System.out.println(sup2.get());
     }
 
+
+    @Test
+    public void test3(){
+
+    }
+
 }
