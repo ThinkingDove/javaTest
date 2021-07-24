@@ -1,3 +1,5 @@
+package main.java;
+
 /**
  * 自定义函数式接口
  * @author lirenxiang
