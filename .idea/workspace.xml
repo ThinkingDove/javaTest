@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53cb4f0e-00f9-4a65-b98d-c7810dde6036" name="Default Changelist" comment="" />
+    <list default="true" id="53cb4f0e-00f9-4a65-b98d-c7810dde6036" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java2/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java2/EmployeeData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java2/MethodRefTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LambdaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LambdaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LambdaTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LambdaTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyInterface.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +21,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -34,6 +44,9 @@
     <option name="jreName" value="#JAVA_HOME" />
   </component>
   <component name="ProjectId" id="1sbpAUtgelJpvmLfqGsfVFW3ntF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,10 +57,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunManager" selected="JUnit.LambdaTest2.test2">
     <configuration name="LambdaTest2.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -121,7 +135,9 @@
       <option name="presentableId" value="Default" />
       <updated>1621151000509</updated>
       <workItem from="1621151004422" duration="2682000" />
-      <workItem from="1625988789729" duration="3216000" />
+      <workItem from="1625988789729" duration="4121000" />
+      <workItem from="1626094213870" duration="5000" />
+      <workItem from="1627132754567" duration="3485000" />
     </task>
     <servers />
   </component>
@@ -133,33 +149,45 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1621152238533" />
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1627134044094">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1627134044094" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1623679778027">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1623679778027" />
-    <state width="1493" height="177" key="GridCell.Tab.0.bottom" timestamp="1625991088353">
+    <state width="1493" height="177" key="GridCell.Tab.0.bottom" timestamp="1625993404094">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="177" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625991088353" />
-    <state width="1493" height="177" key="GridCell.Tab.0.center" timestamp="1625991088352">
+    <state width="1493" height="177" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625993404094" />
+    <state width="1493" height="177" key="GridCell.Tab.0.center" timestamp="1625993404094">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="177" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1625991088352" />
-    <state width="1493" height="177" key="GridCell.Tab.0.left" timestamp="1625991088352">
+    <state width="1493" height="177" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1625993404094" />
+    <state width="1493" height="177" key="GridCell.Tab.0.left" timestamp="1625993404094">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="177" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1625991088352" />
-    <state width="1493" height="177" key="GridCell.Tab.0.right" timestamp="1625991088352">
+    <state width="1493" height="177" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1625993404094" />
+    <state width="1493" height="177" key="GridCell.Tab.0.right" timestamp="1625993404094">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="177" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1625991088352" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1625989166137">
+    <state width="1493" height="177" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1625993404094" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1627133765231">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1625989166137" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1625988789469">
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1627133765231" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1627132754362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1625988789469" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1627132754362" />
+    <state x="465" y="203" key="git4idea.merge.GitPullDialog" timestamp="1625993394868">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="203" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1625993394868" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1627135314783">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1627135314783" />
   </component>
 </project>
