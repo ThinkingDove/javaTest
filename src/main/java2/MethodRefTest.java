@@ -52,7 +52,7 @@ public class MethodRefTest {
 
     @Test
     public void test3(){
-        System.out.println();
+        System.out.println("111");
     }
 
 }
