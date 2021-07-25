@@ -3,6 +3,7 @@ package main.java2;
 import org.junit.jupiter.api.Test;
 
 import java.util.Comparator;
+import java.util.function.BiPredicate;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Supplier;
@@ -78,5 +79,46 @@ public class MethodRefTest {
         System.out.println(func2.apply(12.6));
     }
 
+    //情况三：类::实例方法 (有难度)
+    //Comparator中的int compare(T t1,T t2)
+    //String中的int t1.compareTo(t2)
+    @Test
+    public void test5(){
+        Comparator<String> com1 = (s1,s2) -> s1.compareTo(s2);
+        System.out.println(com1.compare("abc","abd"));
+
+        System.out.println("************");
+
+        Comparator<String> com2 = String::compareTo;
+        System.out.println(com2.compare("abc","abd"));
+    }
+
+    //BiPredicate中的boolean test(T t1,T t2)
+    //String中的boolean t1.equals(t2)
+    @Test
+    public void test6(){
+        BiPredicate<String,String> com1 = (s1, s2) -> s1.equals(s2);
+        System.out.println(com1.test("abc","abc"));
+
+        System.out.println("************");
+
+        BiPredicate<String,String> com2 = String::equals;
+        System.out.println(com2.test("abc","abm"));
+    }
+
+
+    //Function中的R apply(T t)
+    //Employee中的String getName()
+    @Test
+    public void test7(){
+        Employee employee = new Employee(1001,"马化腾",34,6000.38);
+        Function<Employee,String> func1 = e -> e.getName();
+        System.out.println(func1.apply(employee));
+
+        System.out.println("************");
+
+        Function<Employee,String> func2 = Employee::getName;
+        System.out.println(func2.apply(employee));
+    }
 
 }
