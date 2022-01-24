@@ -4,9 +4,7 @@ import main.java2.Employee;
 import main.java2.EmployeeData;
 import org.junit.jupiter.api.Test;
 
-import java.util.Arrays;
 import java.util.List;
-import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 /**
