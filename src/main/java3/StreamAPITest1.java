@@ -91,4 +91,33 @@ public class StreamAPITest1 {
         System.out.println(list1);
     }
 
+    //3-排序
+    @Test
+    public void test4(){
+//        sorted——自然排序
+        List<Integer> list = Arrays.asList(12, 43, 65, 34, 87, 0, -98, 7);
+        list.stream().sorted().forEach(System.out::println);
+        //出现异常，类没有实现Comparator接口
+//        List<Employee> employees = EmployeeData.getEmployees();
+//        employees.stream().sorted().forEach(System.out::println);
+
+//        sorted(Comparator com)——定制排序
+        List<Employee> employees = EmployeeData.getEmployees();
+        employees.stream().sorted( (e1,e2) -> {
+            int ageValue = Integer.compare(e1.getAge(),e2.getAge());
+            if(ageValue != 0){
+                return ageValue;
+            }else{
+                return Double.compare(e1.getSalary(),e2.getSalary());
+            }
+        }).forEach(System.out::println);
+
+
+
+
+
+
+
+    }
+
 }
