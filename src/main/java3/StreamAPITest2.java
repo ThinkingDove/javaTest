@@ -4,8 +4,10 @@ import main.java2.Employee;
 import main.java2.EmployeeData;
 import org.junit.jupiter.api.Test;
 
-import java.util.*;
-import java.util.stream.Stream;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Optional;
 
 /**
  *  测试Stream的终止操作
@@ -44,7 +46,6 @@ public class StreamAPITest2 {
 
     }
 
-    //映射
     @Test
     public void test2(){
         List<Employee> employees = EmployeeData.getEmployees();
@@ -66,4 +67,20 @@ public class StreamAPITest2 {
 
         employees.forEach(System.out::println);
     }
+
+    //2、规约
+    @Test
+    public void test3(){
+//        reduce(T identity, BinaryOperator b)——可以将流中元素反复结合起来，得到一个值，返回T
+//        练习11：计算1-10的自然数的和
+        List<Integer> list = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
+        Integer sum = list.stream().reduce(0, Integer::sum);
+        System.out.println(sum);
+//        reduce(BinaryOperator b)——可以将流中元素反复结合起来，得到一个值，返回Optional<T>
+//        练习2：计算公司所有员工工资的总和
+        List<Employee> employees = EmployeeData.getEmployees();
+        Optional<Double> sum2 = employees.stream().map(Employee::getSalary).reduce(Double::sum);
+        System.out.println(sum2);
+    }
+
 }
